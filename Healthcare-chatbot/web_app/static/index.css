@@ -1,0 +1,48 @@
+
+body{
+  background-image: url("img/clean-medical-background_53876-116875.avif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+min-height: 100vh;
+}
+
+.fixed-panel {
+  min-height: 400px;
+  max-height: 400px;
+  
+  color: white;
+  overflow: auto;
+}
+.media-list {
+  overflow: auto;
+  clear: both;
+  display: table;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: normal;
+  line-break: strict;
+}
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 6px solid transparent;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.panel-info {
+  border-color: #0c2735;
+}
+.panel-info > .panel-heading {
+  color: white;
+  background-color: #0c2735;
+  border-color: #0c2735;
+}
+.panel-footer {
+  padding: 10px 15px;
+  background-color: #0c2735;
+  border-top: 1px solid #0c2735;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
